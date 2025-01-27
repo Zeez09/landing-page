@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+    line-height: 1;
+}
+
+.container {
+    background-image:url(imgg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+
+ul {
+    flex-direction: row;
+    list-style: none;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    width: 40%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+
+.p{
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    opacity: 0.8;
+    line-height: 24px;
+
+}
+
+.h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 10px ;
+    line-height: 24px;
+}
+
+button{
+
+   margin-right: 300px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 200px
+}
+
+.p1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

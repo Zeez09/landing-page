@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.flex-container {
+    height: 15%;
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+
+
+
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 40px;
+    color: black;
+    margin-left: 40px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
+}
+
+.photo {
+    height: 70%;
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+    gap: 10px;
+
+}
+
+.headers {
+    display: flex;
+    flex-direction: row;
+    gap: 100px; 
+}
+
+.head {
+    color: black;
+    margin-left: 5%;
+}
+
+.black-box {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.header-1 {
+    margin-top: 0;
+
+}
+
+.header-2 {
+    margin-top: 0;
+}
+
+.text-1 {
+    margin: 0;
+}
+
+.line {
+    width: 90%;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    width: 100px;
+    margin-left: 3%;
+}
+
+
+
+.texts {
+    margin-left: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .sub-container {
+        text-align: left;
+    }
+}
+
+
+
+
